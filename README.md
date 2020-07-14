@@ -1,1 +1,1 @@
-# NavalBattleGame-BackEnd
+# Naval Battle Game (BackEnd)
