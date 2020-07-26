@@ -3,6 +3,8 @@
 <h2 align="center"><strong align="center">Back end</strong></h2>
 </p>
 
+## [Check our Front end](https://github.com/alicecabral/naval-battle-game-frontend)
+
 ## Members
 
 - [alicecabral](https://github.com/alicecabral)
