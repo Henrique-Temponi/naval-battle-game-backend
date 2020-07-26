@@ -29,3 +29,34 @@
 ## Classes diagram
 
 ![Classes Diagram](./nbg_classes_diagram.svg)
+
+## Relations
+
+```
+1 Player        -> 0..N Tournament
+1 Tournament    -> 0..N Player
+
+1 Player        -> 0..N Match
+1 Match         -> 2    Player
+
+1 Player        -> 0..N Map
+1 Map           -> 1    Player
+
+1 Player        -> 0..N Shot
+1 Shot          -> 1    Player
+
+1 Tournament    -> 0..N Match
+1 Match         -> 0..1 Tournament
+
+1 Match         -> 2    Map
+1 Map           -> 1    Match
+
+1 Map           -> 0..N Shot
+1 Shot          -> 1    Map
+
+1 Map           -> 0..N Ship
+1 Ship          -> 1    Map
+
+1 Player        -> 1    GlobalRanking
+1 GlobalRanking -> 0..N Player
+```
