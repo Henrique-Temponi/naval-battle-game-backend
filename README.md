@@ -49,6 +49,9 @@
 1 Player        has           0..N Shot
 1 Shot          belongs to    1    Player
 
+1 Player        belongs to    1    GlobalRanking
+1 GlobalRanking has           0..N Player
+
 1 Tournament    has           0..N Match
 1 Match         belongs to    0..1 Tournament
 
@@ -60,7 +63,4 @@
 
 1 Map           has           0..N Ship
 1 Ship          belongs to    1    Map
-
-1 Player        belongs to    1    GlobalRanking
-1 GlobalRanking has           0..N Player
 ```
