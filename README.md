@@ -25,3 +25,7 @@
 ## Use cases diagram
 
 ![Use Cases Diagram](./nbg_use_cases_diagram.svg)
+
+## Classes diagram
+
+![Classes Diagram](./nbg_classes_diagram.svg)
