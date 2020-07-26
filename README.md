@@ -21,3 +21,7 @@
 <a href="https://github.com/laravel/echo"><img alt="laravel-echo" src="https://laravel.com/assets/img/components/logo-echo.svg" height="50px"></a>
 
 <a href="https://laravel.com/docs/7.x/broadcasting"><img alt="socket.io" src="https://socket.io/css/images/logo.svg" height="50px"></a>
+
+## Use cases diagram
+
+![Use Cases Diagram](./nbg_use_cases_diagram.svg)
