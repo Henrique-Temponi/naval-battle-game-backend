@@ -37,30 +37,30 @@
 ## Relations
 
 ```
-1 Player        -> 0..N Tournament
-1 Tournament    -> 0..N Player
+1 Player        belongs to    0..N Tournament
+1 Tournament    has           0..N Player
 
-1 Player        -> 0..N Match
-1 Match         -> 2    Player
+1 Player        belongs to    0..N Match
+1 Match         has           2    Player
 
-1 Player        -> 0..N Map
-1 Map           -> 1    Player
+1 Player        has           0..N Map
+1 Map           belongs to    1    Player
 
-1 Player        -> 0..N Shot
-1 Shot          -> 1    Player
+1 Player        has           0..N Shot
+1 Shot          belongs to    1    Player
 
-1 Tournament    -> 0..N Match
-1 Match         -> 0..1 Tournament
+1 Tournament    has           0..N Match
+1 Match         belongs to    0..1 Tournament
 
-1 Match         -> 2    Map
-1 Map           -> 1    Match
+1 Match         has           2    Map
+1 Map           belongs to    1    Match
 
-1 Map           -> 0..N Shot
-1 Shot          -> 1    Map
+1 Map           has           0..N Shot
+1 Shot          belongs to    1    Map
 
-1 Map           -> 0..N Ship
-1 Ship          -> 1    Map
+1 Map           has           0..N Ship
+1 Ship          belongs to    1    Map
 
-1 Player        -> 1    GlobalRanking
-1 GlobalRanking -> 0..N Player
+1 Player        belongs to    1    GlobalRanking
+1 GlobalRanking has           0..N Player
 ```
