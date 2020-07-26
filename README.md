@@ -14,6 +14,10 @@
 
 ## Technologies
 
+<a href="https://www.docker.com/"><img alt="Docker" src="https://avatars0.githubusercontent.com/u/5429470?s=200&v=4" height="60px"></a>
+
+<a href="https://www.postgresql.org/"><img alt="PostgreSQL" src="https://www.postgresql.org/media/img/about/press/elephant.png" height="70px"></a>
+
 <a href="https://laravel.com/"><img alt="laravel" src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" height="60px"></a>
 
 <a href="https://github.com/tymondesigns/jwt-auth"><img alt="jwt-auth" src="https://cloud.githubusercontent.com/assets/1801923/9915273/119b9350-5cae-11e5-850b-c941cac60b32.png" height="70px"></a>
